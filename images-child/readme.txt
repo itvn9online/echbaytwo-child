@@ -1,0 +1,1 @@
+* Thư mục ảnh của CSS trong child theme bắt buộc phải đặt trong thư mục `images-child` để đảm bảo hoạt động đúng trong mọi trường hợp và phân biệt với ảnh của theme gốc.
