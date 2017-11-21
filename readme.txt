@@ -3,7 +3,7 @@ Video clip hướng dẫn tạo và sử dụng child theme cho `echbaydotcom`:
 https://www.youtube.com/watch?v=GG-o5OJ0-Wo
 
 
-`DANH SÁCH CÁC FILE ĐƯỢC TẠO VÀ NẠP MẶC ĐỊNH`
+== DANH SÁCH CÁC FILE ĐƯỢC TẠO VÀ NẠP MẶC ĐỊNH ==
 
 `images-child`:
 - Là thư mục chứa ảnh cho các file CSS trong thư mục `ui`.
