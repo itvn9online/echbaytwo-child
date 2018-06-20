@@ -1,6 +1,9 @@
 <?php
 
 /*
+*/
+
+/*
 * Khai báo cho phần child theme trong file functions.php
 */
 define( 'EB_CHILD_THEME_URL', dirname( __FILE__ ) . '/' );
