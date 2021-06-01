@@ -2,7 +2,7 @@
 /*
  * Trang này dùng để code trực tiếp 1 giao diện theo dạng đặt module trong widget, sa đó gọi nội dung widget ra đây
  * Để sử dụng trang trong wordpress, tạo 1 trang tĩnh xong kết nối bằng hàm dưới:
- * [get_child_php_template path="home.php"]
+  [get_child_php_template path="home.php"]
  * - Thay home.php thành tên file tương ứng
  * - File phải được đặt trong thư mục tên là: shortcode
  * - Thuộc tính "Giao diện": For Widget Shortcode (hide title)
@@ -17,6 +17,12 @@
  echo _eb_echbay_sidebar( 'home_content_bottom_sidebar', '', 'div', 1, 0 );
  * các widget thông qua widget shortcode và phần ngôn ngữ của echbaydotcom
  WGR_echo_shortcode('home_shortcode');
+ *
+ * Cũng là widget nhưng không echo, chỉ trả về chuỗi
+ WGR_shortcode('home_shortcode');
+ *
+ * lấy độ rộng khung cho trang chủ
+ $cf_blog_class_style = get_option( '_eb_cf_blog_class_style' );
  *
  *
  */
